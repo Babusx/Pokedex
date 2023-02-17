@@ -7,15 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="globa.css">
+    <link rel="stylesheet" href="cards.css">
+    <link rel="stylesheet" href="list.css">
 </head>
 
 <body>
 
     <div class="pokedex">
 
-        <div class="pokemon-cards">
+        <div class="pokemon-cards open" id="pikachu-card">
 
-            <div class="pokemon-card">
+            <div class="pokemon-card eletric-type open">
 
                 <div class="card-top">
                     <div class="details">
@@ -57,7 +60,7 @@
             </div>
 
 
-            <div class="pokemon-card">
+            <div class="pokemon-card grass-type" id="bulbasaur-card">
 
                 <div class="card-top">
                     <div class="details">
@@ -98,7 +101,7 @@
      
             </div>
 
-            <div class="pokemon-card">
+            <div class="pokemon-card fire-type" id="charmander-card">
 
                 <div class="card-top">
                     <div class="details">
@@ -139,7 +142,7 @@
      
             </div>
 
-            <div class="pokemon-card">
+            <div class="pokemon-card walter-type" id="squirite-card">
 
                 <div class="card-top">
                     <div class="details">
@@ -181,7 +184,7 @@
             </div>
 
 
-            <div class="pokemon-card">
+            <div class="pokemon-card dark-type" id="gengar-card">
 
                 <div class="card-top">
                     <div class="details">
@@ -223,7 +226,7 @@
             </div>
 
 
-            <div class="pokemon-card">
+            <div class="pokemon-card dragon-type" id="dragonite-card"> 
 
                 <div class="card-top">
                     <div class="details">
@@ -265,6 +268,42 @@
             </div>
 
         </div>
+
+        <nav class="listagem ativo">
+            <ul>
+                <li class="pokemon ativo" id="pikachu">
+                    <img src="./images/cabeca-pikachu.png" alt="">
+                    <span>Pikachu</span>
+
+                </li>
+
+                <li class="pokemon" id="bulbasaur">
+                    <img src="./images/cabeca-bulbasaur.png" alt="">
+                    <span>Bulbasaur</span>
+                </li>
+
+                <li class="pokemon" id="Charmander">
+                    <img src="./images/cabeca-charmander.png" alt="">
+                    <span>Charmander</span>
+                </li>
+
+                <li class="pokemon" id="Squirite">
+                    <img src="./images/cabeca-squirtle.png" alt="">
+                    <span>Squirite</span>
+                </li>
+
+                <li class="pokemon" id="Gengar">
+                    <img src="./images/cabeca-gengar.png" alt="">
+                    <span>Gengar</span>
+                </li>
+
+                <li class="pokemon" id="Dragonite">
+                    <img src="./images/cabeca-dragonite.png" alt="">
+                    <span>Dragonite</span>
+                </li>
+
+            </ul>
+        </nav>
 
     </div>
 

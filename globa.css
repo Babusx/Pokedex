@@ -2,5 +2,14 @@
 
 body{
     font-family: 'Poppins',sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(110, 112, 112);
 
+}
+.pokedex{
+  
+    display: flex;
 }
